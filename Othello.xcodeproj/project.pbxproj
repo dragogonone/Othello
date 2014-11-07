@@ -14,13 +14,19 @@
 		CEAA395718B6EDA1004C7537 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAA395618B6EDA1004C7537 /* main.m */; };
 		CEAA395B18B6EDA1004C7537 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAA395A18B6EDA1004C7537 /* AppDelegate.m */; };
 		CEAA395E18B6EDA1004C7537 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEAA395C18B6EDA1004C7537 /* Main.storyboard */; };
-		CEAA396118B6EDA1004C7537 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAA396018B6EDA1004C7537 /* ViewController.m */; };
+		CEAA396118B6EDA1004C7537 /* OthelloViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAA396018B6EDA1004C7537 /* OthelloViewController.m */; };
 		CEAA396318B6EDA1004C7537 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEAA396218B6EDA1004C7537 /* Images.xcassets */; };
 		CEAA396A18B6EDA1004C7537 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEAA396918B6EDA1004C7537 /* XCTest.framework */; };
 		CEAA396B18B6EDA1004C7537 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEAA394A18B6EDA1004C7537 /* Foundation.framework */; };
 		CEAA396C18B6EDA1004C7537 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEAA394E18B6EDA1004C7537 /* UIKit.framework */; };
 		CEAA397418B6EDA1004C7537 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEAA397218B6EDA1004C7537 /* InfoPlist.strings */; };
 		CEAA397618B6EDA1004C7537 /* OthelloTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAA397518B6EDA1004C7537 /* OthelloTests.m */; };
+		CEAA398418B70287004C7537 /* TitleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAA398318B70287004C7537 /* TitleViewController.m */; };
+		CEAA398718B70472004C7537 /* DrawLine.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAA398618B70472004C7537 /* DrawLine.m */; };
+		CEAA3DCF18B83124004C7537 /* kuroue.png in Resources */ = {isa = PBXBuildFile; fileRef = CEAA3DC918B83124004C7537 /* kuroue.png */; };
+		CEAA3DD018B83124004C7537 /* siroue.png in Resources */ = {isa = PBXBuildFile; fileRef = CEAA3DCA18B83124004C7537 /* siroue.png */; };
+		CEAA3DD318B83328004C7537 /* black.png in Resources */ = {isa = PBXBuildFile; fileRef = CEAA3DD218B83327004C7537 /* black.png */; };
+		CEAA3DD518B8333F004C7537 /* white.png in Resources */ = {isa = PBXBuildFile; fileRef = CEAA3DD418B8333F004C7537 /* white.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +51,22 @@
 		CEAA395918B6EDA1004C7537 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CEAA395A18B6EDA1004C7537 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		CEAA395D18B6EDA1004C7537 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CEAA395F18B6EDA1004C7537 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CEAA396018B6EDA1004C7537 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CEAA395F18B6EDA1004C7537 /* OthelloViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OthelloViewController.h; sourceTree = "<group>"; };
+		CEAA396018B6EDA1004C7537 /* OthelloViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OthelloViewController.m; sourceTree = "<group>"; };
 		CEAA396218B6EDA1004C7537 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CEAA396818B6EDA1004C7537 /* OthelloTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OthelloTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEAA396918B6EDA1004C7537 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		CEAA397118B6EDA1004C7537 /* OthelloTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OthelloTests-Info.plist"; sourceTree = "<group>"; };
 		CEAA397318B6EDA1004C7537 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CEAA397518B6EDA1004C7537 /* OthelloTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OthelloTests.m; sourceTree = "<group>"; };
+		CEAA398218B70287004C7537 /* TitleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleViewController.h; sourceTree = "<group>"; };
+		CEAA398318B70287004C7537 /* TitleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleViewController.m; sourceTree = "<group>"; };
+		CEAA398518B70472004C7537 /* DrawLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawLine.h; sourceTree = "<group>"; };
+		CEAA398618B70472004C7537 /* DrawLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawLine.m; sourceTree = "<group>"; };
+		CEAA3DC918B83124004C7537 /* kuroue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kuroue.png; sourceTree = "<group>"; };
+		CEAA3DCA18B83124004C7537 /* siroue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = siroue.png; sourceTree = "<group>"; };
+		CEAA3DD218B83327004C7537 /* black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = black.png; sourceTree = "<group>"; };
+		CEAA3DD418B8333F004C7537 /* white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = white.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +129,12 @@
 				CEAA395918B6EDA1004C7537 /* AppDelegate.h */,
 				CEAA395A18B6EDA1004C7537 /* AppDelegate.m */,
 				CEAA395C18B6EDA1004C7537 /* Main.storyboard */,
-				CEAA395F18B6EDA1004C7537 /* ViewController.h */,
-				CEAA396018B6EDA1004C7537 /* ViewController.m */,
+				CEAA398218B70287004C7537 /* TitleViewController.h */,
+				CEAA398318B70287004C7537 /* TitleViewController.m */,
+				CEAA395F18B6EDA1004C7537 /* OthelloViewController.h */,
+				CEAA396018B6EDA1004C7537 /* OthelloViewController.m */,
+				CEAA398518B70472004C7537 /* DrawLine.h */,
+				CEAA398618B70472004C7537 /* DrawLine.m */,
 				CEAA396218B6EDA1004C7537 /* Images.xcassets */,
 				CEAA395118B6EDA1004C7537 /* Supporting Files */,
 			);
@@ -126,6 +144,10 @@
 		CEAA395118B6EDA1004C7537 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CEAA3DD418B8333F004C7537 /* white.png */,
+				CEAA3DD218B83327004C7537 /* black.png */,
+				CEAA3DC918B83124004C7537 /* kuroue.png */,
+				CEAA3DCA18B83124004C7537 /* siroue.png */,
 				CEAA395218B6EDA1004C7537 /* Othello-Info.plist */,
 				CEAA395318B6EDA1004C7537 /* InfoPlist.strings */,
 				CEAA395618B6EDA1004C7537 /* main.m */,
@@ -196,7 +218,7 @@
 		CEAA393F18B6EDA1004C7537 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = USER;
 				TargetAttributes = {
 					CEAA396718B6EDA1004C7537 = {
@@ -230,7 +252,11 @@
 			files = (
 				CEAA396318B6EDA1004C7537 /* Images.xcassets in Resources */,
 				CEAA395518B6EDA1004C7537 /* InfoPlist.strings in Resources */,
+				CEAA3DD018B83124004C7537 /* siroue.png in Resources */,
 				CEAA395E18B6EDA1004C7537 /* Main.storyboard in Resources */,
+				CEAA3DCF18B83124004C7537 /* kuroue.png in Resources */,
+				CEAA3DD518B8333F004C7537 /* white.png in Resources */,
+				CEAA3DD318B83328004C7537 /* black.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,9 +275,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEAA396118B6EDA1004C7537 /* ViewController.m in Sources */,
+				CEAA396118B6EDA1004C7537 /* OthelloViewController.m in Sources */,
+				CEAA398418B70287004C7537 /* TitleViewController.m in Sources */,
 				CEAA395B18B6EDA1004C7537 /* AppDelegate.m in Sources */,
 				CEAA395718B6EDA1004C7537 /* main.m in Sources */,
+				CEAA398718B70472004C7537 /* DrawLine.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,7 +333,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -344,7 +371,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -402,7 +428,6 @@
 		CEAA397D18B6EDA1004C7537 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Othello.app/Othello";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -425,7 +450,6 @@
 		CEAA397E18B6EDA1004C7537 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Othello.app/Othello";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -460,6 +484,7 @@
 				CEAA397B18B6EDA1004C7537 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CEAA397C18B6EDA1004C7537 /* Build configuration list for PBXNativeTarget "OthelloTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +493,7 @@
 				CEAA397E18B6EDA1004C7537 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  DrawLine.h
 //  Othello
 //
 //  Created by USER on 2014/02/21.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface DrawLine : UIView
 
 @end
